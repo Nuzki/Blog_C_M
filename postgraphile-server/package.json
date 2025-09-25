@@ -1,0 +1,21 @@
+{
+  "name": "postgraphile-server",
+  "version": "1.0.0",
+  "description": "- Description: Backend for managing blog posts and comments.\r    - *Features*:\r      - *List Posts*: Fetch all blog posts with pagination and filter by tags/categories.\r      - *Add Post*: Create a new blog post with title, content, and tags.\r      - *Update Post*: Update existing post content and tags.\r      - *Delete Post*: Remove a post, ensuring comments are handled.\r      - *Comment System*: Add comments to posts and fetch comments for a post.",
+  "main": "knex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "knex": "^3.1.0",
+    "node-fetch": "^2.7.0",
+    "pg": "^8.16.3",
+    "postgraphile": "^4.14.1"
+  }
+}

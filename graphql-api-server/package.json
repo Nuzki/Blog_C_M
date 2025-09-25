@@ -1,0 +1,19 @@
+{
+  "name": "graphql-api-server",
+  "version": "1.0.0",
+  "description": "This folder contains the custom GraphQL API server that proxies requests to the Postgraphile server.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "dotenv": "^17.2.2",
+    "graphql": "^16.11.0",
+    "node-fetch": "^2.7.0"
+  }
+}
